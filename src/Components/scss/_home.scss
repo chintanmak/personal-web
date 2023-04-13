@@ -40,5 +40,77 @@
 }
 
 .aboutme_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70vh;
+    & .aboutme_header{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        gap: 1rem;
+        & h2{
+            font-size: 2.5rem;
+        }
+        & p{
+            font-size: 1.3rem;   
+        }
+        & button{
+            border: 2px solid red;
+            width: 13rem;
+            height: 3rem;
+            background-color: transparent;
+            color: red;
+            font-size: 0.8rem;
+        }
+    }
+ 
+    & .aboutme_img{
+        & img{
+            width: 25rem;
+        }
+    }
+}
+
+.skill_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+    & .skill_title{
+            text-align: center;
+        & h2{
+            font-size: 2.5rem;
+        }
+        & p{
+            margin-top: 2rem;
+            font-size: 1.3rem;
+            width: 40rem;
+        }
+    }
+
+    & .skillset_content{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: fit-content;
+        column-gap: 15rem;
+        row-gap: 2rem;
+        // border: 1px solid;
+        margin-top: 3rem;
+
+        & .skillset{
+            width: 30rem;
+            // border: 1px solid;
+
+            & p{
+                font-size: 1.8rem;
+            }
+            & progress{
+                width: 90%;
+                height: 2rem;
+            }
+        }
+
+    }
 }
