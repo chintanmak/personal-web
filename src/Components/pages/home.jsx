@@ -18,6 +18,8 @@ import circle4 from '../assets/circle4.png';
 import circle5 from '../assets/circle5.png';
 import circle6 from '../assets/circle6.png';
 
+import murakamiss from '../assets/murakamiclone.vercel.app.jpeg';
+
 export default function Home() {
   return (
     <>
@@ -115,7 +117,6 @@ export default function Home() {
           </div>
         </div>
 
-
         <div className='services_box'>
           <div className='service_row1'>
           <img src={design} />
@@ -142,7 +143,6 @@ export default function Home() {
           </div>
         </div>
 
-
         <div className='services_box'>
           <div className='service_row1'>
           <img src={support} />
@@ -156,6 +156,23 @@ export default function Home() {
           </div>
         </div>
 
+      </div>
+    </div>
+
+    <div className='latestwork_container'>
+      <div className='latestwork_title'>
+        <h2>Latest Work</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+      </div>
+
+      <div className='latestwork_section'>
+        <div className='work_box'>
+          <img src={murakamiss} />
+        </div>
+        <div className='work_box'>
+          <img src={murakamiss} />
+        </div>
+        
       </div>
     </div>
     </>
