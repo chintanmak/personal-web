@@ -240,4 +240,27 @@
             width: 40rem;
         }
     }
+
+    & .resume_section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 2rem;
+        & .education_section,.experience_section{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            & .education_box, .experience_box{
+                width: 40rem;
+                padding: 1rem;
+                border: 1px solid;
+                border-radius: 1rem;
+            }
+        }
+    }
 }
