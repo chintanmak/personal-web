@@ -55,6 +55,7 @@
         }
         & p{
             font-size: 1.3rem;   
+            margin-bottom: 3rem;
         }
         & button{
             border: 2px solid red;
@@ -69,6 +70,8 @@
     & .aboutme_img{
         & img{
             width: 25rem;
+            border: 3px solid;
+            border-radius: 1rem;
         }
     }
 }

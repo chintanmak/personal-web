@@ -1,7 +1,7 @@
 import React from 'react';
 import '../scss/_home.scss';
 import pic from '../assets/ChintanMakwana.png';
-import pic2 from '../assets/pic4.jpg';
+import pic2 from '../assets/pic6.jpeg';
 import pic3 from '../assets/pic5.jpg';
 
 import bulb from '../assets/bulb.png';
@@ -38,7 +38,7 @@ export default function Home() {
     <>
       <div className='header_container'>
         <div className='header_img'>
-          <img src={pic} />
+          <img src={pic2} />
         </div>
         <div className='header_title'>
           <h1>Hello I'm Chintan.</h1>
@@ -50,7 +50,7 @@ export default function Home() {
       <div className='aboutme_container'> 
         <div className='aboutme_header'>
           <h2>About Me</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p>Experienced Associate Software Developer with a demonstrated history of working in the IT industry. Skilled in HTML, CSS, SCSS, Javascript, Reactjs, Mongodb. Strong engineering professional with a Master's degree focused in Computer Science from MIT World Peace University.</p>
           <button>HIRE ME</button>
         </div>
         <div className='aboutme_img'>
@@ -65,20 +65,20 @@ export default function Home() {
         </div>
         <div className='skillset_content'>
           <div className='skillset'>
-            <p>Developer</p>
-            <progress value="80" max="100"></progress>
+            <p>HTML</p>
+            <progress value="90" max="100"></progress>
           </div>
           <div className='skillset'>
-            <p>Web Design</p>
-            <progress value="75" max="100"> 32% </progress>
+            <p>CSS / SCSS</p>
+            <progress value="85" max="100"> 32% </progress>
           </div>
           <div className='skillset'>
-            <p>Cordignator</p>
-            <progress value="89" max="100"> 32% </progress>
+            <p>Reactjs</p>
+            <progress value="60" max="100"> 32% </progress>
           </div>
           <div className='skillset'>
-            <p>Laravel</p>
-            <progress value="90" max="100"> 32% </progress>
+            <p>Mongodb</p>
+            <progress value="55" max="100"> 32% </progress>
           </div>
         </div>
       </div>
@@ -203,16 +203,16 @@ export default function Home() {
         <h2>Education</h2>
         </div>
           <div className='education_box'>
-            <p>March 2013-2017</p>
-            <p><b>Computer Science</b></p>
-            <p>International university</p>
+            <p>March 2020-2022</p>
+            <p><b>MSc Computer Science</b></p>
+            <p>MIT World Peace University</p>
             <br />
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
           <div className='education_box'>
-            <p>March 2013-2017</p>
-            <p><b>Computer Science</b></p>
-            <p>International university</p>
+            <p>March 2017-2020</p>
+            <p><b>BSc Information Technology</b></p>
+            <p>Nagindas Khandwala College</p>
             <br />
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
@@ -224,16 +224,16 @@ export default function Home() {
         <h2>Experience</h2>
         </div>
           <div className='experience_box'>
-            <p>March 2013-2017</p>
-            <p><b>Computer Science</b></p>
-            <p>International university</p>
+            <p>Oct 2022 - Present</p>
+            <p><b>Engineer</b></p>
+            <p>Trejhara Solutions</p>
             <br />
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
           <div className='experience_box'>
-            <p>March 2013-2017</p>
-            <p><b>Computer Science</b></p>
-            <p>International university</p>
+            <p>Nov 2021 - jun 2022</p>
+            <p><b>Software Developer Intern</b></p>
+            <p>Hack-X Security</p>
             <br />
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
