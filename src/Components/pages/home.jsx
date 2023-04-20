@@ -33,6 +33,8 @@ import twitter from '../assets/twitter.png';
 import murakamiss from '../assets/murakamiclone.vercel.app.jpeg';
 import teamwayss from '../assets/teamway-chintanmak.vercel.app.jpeg';
 
+import resume from '../assets/Chintan_Makwana_Resume.pdf';
+
 export default function Home() {
   return (
     <>
@@ -43,7 +45,7 @@ export default function Home() {
         <div className='header_title'>
           <h1>Hello I'm Chintan.</h1>
           <h2>A React Developer</h2>
-          <button>DOWNLOAD RESUME</button>
+          <a href={resume}><button> DOWNLOAD RESUME</button></a>
         </div>
       </div>
 

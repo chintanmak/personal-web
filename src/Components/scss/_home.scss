@@ -37,6 +37,10 @@
             color: red;
             font-size: 0.8rem;
         }
+        & button:hover{
+            background-color: red;
+            color: white
+        }
     }
 }
 
@@ -64,6 +68,10 @@
             background-color: transparent;
             color: red;
             font-size: 0.8rem;
+        }
+        & button:hover{
+            background-color: red;
+            color: white
         }
     }
  
@@ -224,6 +232,10 @@
         color: red;
         font-size: 0.8rem;
     }
+    & button:hover{
+        background-color: red;
+        color: white
+    }
 }
 
 .resume_container{
@@ -335,7 +347,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            
             & button{
                 margin-top: 1rem;
                 border: 2px solid red;
@@ -344,6 +355,10 @@
                 background-color: transparent;
                 color: red;
                 font-size: 0.8rem;
+            }
+            & button:hover{
+                background-color: red;
+                color: white
             }
         }
         }
