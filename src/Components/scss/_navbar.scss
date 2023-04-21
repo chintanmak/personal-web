@@ -2,38 +2,80 @@
     padding: 0%;
     margin: 0%;
 }
-.navbar_container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 6rem;
-    padding: 0 4rem;
-    & .navbar_logo>h2{
 
-        font-size: 3rem;
-        font-weight: 500;
-        color: black;
-        & span{
-            color: red;
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .navbar_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // height: 6rem;
+        // padding: 0 4rem;
+        & .navbar_logo>h2{
+    
+            font-size: 3rem;
+            font-weight: 500;
+            color: black;
+            & span{
+                color: red;
+            }
+        }
+        & .navbar_menu{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            // flex-direction: row;
+            // gap: 1rem;
+            text-align: center;
+            justify-content: center;
+            & a{
+                transition: 0.2s;
+                padding: 0.5rem;
+                font-size: 1.3rem;
+                text-decoration: none;
+                color: black;
+            }
+            & a:hover{
+                margin: -2px;
+                border-bottom: 3px solid red;
+            }
         }
     }
-    & .navbar_menu{
+}
+
+@media screen and (min-width: 769px) {
+    .navbar_container{
         display: flex;
         flex-direction: row;
-        gap: 1rem;
-        text-align: center;
-        justify-content: center;
-        & a{
-            transition: 0.2s;
-            padding: 0.5rem;
-            font-size: 1.3rem;
-            text-decoration: none;
+        justify-content: space-between;
+        align-items: center;
+        height: 6rem;
+        padding: 0 4rem;
+        & .navbar_logo>h2{
+    
+            font-size: 3rem;
+            font-weight: 500;
             color: black;
+            & span{
+                color: red;
+            }
         }
-        & a:hover{
-            margin: -2px;
-            border-bottom: 3px solid red;
+        & .navbar_menu{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            text-align: center;
+            justify-content: center;
+            & a{
+                transition: 0.2s;
+                padding: 0.5rem;
+                font-size: 1.3rem;
+                text-decoration: none;
+                color: black;
+            }
+            & a:hover{
+                margin: -2px;
+                border-bottom: 3px solid red;
+            }
         }
     }
 }
