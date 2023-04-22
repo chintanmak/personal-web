@@ -10,13 +10,13 @@ export default function Navbar() {
         <h2>Chintan.<span>Mak</span></h2>
         </div>
         <div className='navbar_menu'>
-          <a href="">Home</a>
-          <a href="">Services</a>
-          <a href="">Work</a>
+          <a href="/">Home</a>
+          <a href="/services">Services</a>
+          <a href="/work">Work</a>
           <a href="">Resume</a>
           <a href="">Testimonials</a>
           <a href="">Blog</a>
-          <a href="">Contact</a>
+          <a href="/contact">Contact</a>
         </div>
       </div>
 
