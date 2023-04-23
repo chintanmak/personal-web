@@ -2,6 +2,8 @@ import React from 'react';
 import '../Components/scss/_navbar.scss';
 import { Outlet, Link } from "react-router-dom";
 
+import resume from './assets/Chintan_Makwana_Resume.pdf';
+
 export default function Navbar() {
   return (
     <>
@@ -13,9 +15,9 @@ export default function Navbar() {
           <a href="/">Home</a>
           <a href="/services">Services</a>
           <a href="/work">Work</a>
-          <a href="">Resume</a>
-          <a href="">Testimonials</a>
-          <a href="">Blog</a>
+          <a href={resume}>Resume</a>
+          <a href="/">Testimonials</a>
+          <a href="/">Blog</a>
           <a href="/contact">Contact</a>
         </div>
       </div>
