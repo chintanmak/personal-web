@@ -60,7 +60,7 @@ export default function Home() {
       <div className='skill_container'>
         <div className='skill_title'>
           <h2>My Skills</h2>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          {/* <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> */}
         </div>
         <div className='skillset_content'>
           <div className='skillset'>
@@ -85,7 +85,7 @@ export default function Home() {
       <div className='service_container'>
       <div className='service_title'>
         <h2>Our Services</h2>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        {/* <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> */}
       </div>
 
       <div className='services_section'>
@@ -174,7 +174,7 @@ export default function Home() {
     <div className='latestwork_container'>
       <div className='latestwork_title'>
         <h2>Latest Work</h2>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        {/* <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> */}
       </div>
 
       <div className='latestwork_section'>
@@ -191,7 +191,7 @@ export default function Home() {
     <div className='resume_container'>
       <div className='resume_title'>
         <h1>Our Resume</h1>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        {/* <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> */}
       </div>
 
       <div className='resume_section'>
@@ -247,7 +247,7 @@ export default function Home() {
     <div className='contactme_container'>
       <div className='contactme_title'>
         <h1>Contact me</h1>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        {/* <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> */}
       </div>
 
       <div className='contactform_section'>

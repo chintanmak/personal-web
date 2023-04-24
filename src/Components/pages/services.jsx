@@ -22,7 +22,7 @@ export default function Services() {
             <div className='service_container'>
       <div className='service_title'>
         <h2>Our Services</h2>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        {/* <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> */}
       </div>
 
       <div className='services_section'>

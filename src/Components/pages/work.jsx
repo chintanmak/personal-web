@@ -15,7 +15,7 @@ export default function Work() {
         <div className='latestwork_container'>
       <div className='latestwork_title'>
         <h2>Latest Work</h2>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        {/* <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> */}
       </div>
 
       <div className='latestwork_section'>
