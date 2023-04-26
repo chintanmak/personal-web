@@ -27,7 +27,7 @@ export default function Contact() {
           <textarea type='text' placeholder='Your Message' />
         </div>
         <div className='formrow3'>
-          <button>
+          <button onClick={() => alert('Currently form is not working, contact through mail')}>
             Send me
           </button>
         </div>

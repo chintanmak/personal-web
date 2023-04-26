@@ -16,8 +16,7 @@ export default function Navbar() {
           <a href="/services">Services</a>
           <a href="/work">Work</a>
           <a href={resume}>Resume</a>
-          <a href="/">Testimonials</a>
-          <a href="/">Blog</a>
+          <a href="/testimonial">Testimonials</a>
           <a href="/contact">Contact</a>
         </div>
       </div>

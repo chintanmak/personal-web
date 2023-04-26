@@ -96,7 +96,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>App Development</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
           </div>
           <div className='service_row3'>
             <img src={circle1} />
@@ -109,7 +109,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Web Development</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
           </div>
           <div className='service_row3'>
             <img src={circle2} />
@@ -122,7 +122,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Responsive Design</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
           </div>
           <div className='service_row3'>
             <img src={circle3} />
@@ -135,7 +135,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Designs & Interfaces</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
           </div>
           <div className='service_row3'>
             <img src={circle4} />
@@ -148,7 +148,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Highly Customizable</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
           </div>
           <div className='service_row3'>
             <img src={circle5} />
@@ -161,7 +161,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Dedicated Support</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
           </div>
           <div className='service_row3'>
             <img src={circle6} />
@@ -261,7 +261,7 @@ export default function Home() {
           <textarea type='text' placeholder='Your Message' />
         </div>
         <div className='formrow3'>
-          <button>
+          <button onClick={() => alert('Currently form is not working, contact through mail')}>
             Send me
           </button>
         </div>
