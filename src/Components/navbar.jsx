@@ -9,7 +9,7 @@ export default function Navbar() {
     <>
       <div className='navbar_container'>
         <div className='navbar_logo'>
-        <h2>Chintan.<span>Mak</span></h2>
+        <a href="/"><h2>Chintan.<span>Mak</span></h2></a>
         </div>
         <div className='navbar_menu'>
           <a href="/">Home</a>

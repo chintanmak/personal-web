@@ -11,7 +11,10 @@
         align-items: center;
         // height: 6rem;
         // padding: 0 4rem;
-        & .navbar_logo>h2{
+        & .navbar_logo>a{
+            text-decoration: none;
+        }
+        & .navbar_logo>a>h2{
     
             font-size: 3rem;
             font-weight: 500;
@@ -50,8 +53,11 @@
         align-items: center;
         height: 6rem;
         padding: 0 4rem;
-        & .navbar_logo>h2{
-    
+        & .navbar_logo>a{
+            text-decoration: none;
+        }
+        & .navbar_logo>a>h2{
+            
             font-size: 3rem;
             font-weight: 500;
             color: black;
