@@ -5,6 +5,7 @@ import fb from './assets/facebook.png';
 import insta from './assets/instagram.png';
 import github from './assets/github.png';
 import twitter from './assets/twitter.png';
+import linkedin from './assets/linkedin.png';
 
 
 export default function Footer() {
@@ -21,6 +22,7 @@ export default function Footer() {
       <a href='https://instagram.com/chintan.mak'><img src={insta} /></a>
       <a href='https://github.com/chintanmak'><img src={github} /></a>
       <a href='https://twitter.com/chintanMac'><img src={twitter} /></a>
+      <a href='https://www.linkedin.com/in/chintan-makwana-5560b712b/'><img src={linkedin}/></a>
       </div>
     </div>
     </>
