@@ -6,6 +6,7 @@ import teamwayss from '../assets/teamway-chintanmak.vercel.app.jpeg';
 import notess from '../assets/note-chintanmak.vercel.app.jpeg';
 import neutrinoss from '../assets/neutrino.vercel.app.jpg';
 import myblogwebss from '../assets/myblogweb-newpost.jpeg';
+import konsultantss from '../assets/konsultantss.jpg';
 import Footer from '../footer';
 
 
@@ -30,6 +31,9 @@ export default function Work() {
         </div>
         <div className='work_box'>
           <a href='https://neutrino.vercel.app/'><img src={neutrinoss} /></a>
+        </div>
+        <div className='work_box'>
+          <a href='https://konsultant.vercel.app/'><img src={konsultantss} /></a>
         </div>
         <div className='work_box'>
           <a href="/myblogweb"><img src={myblogwebss} /></a>
