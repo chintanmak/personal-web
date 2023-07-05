@@ -7,6 +7,7 @@ import notess from '../assets/note-chintanmak.vercel.app.jpeg';
 import neutrinoss from '../assets/neutrino.vercel.app.jpg';
 import myblogwebss from '../assets/myblogweb-newpost.jpeg';
 import konsultantss from '../assets/konsultantss.jpg';
+import bsnsss from '../assets/bsnsss.jpg';
 import Footer from '../footer';
 
 
@@ -37,6 +38,9 @@ export default function Work() {
         </div>
         <div className='work_box'>
           <a href="/myblogweb"><img src={myblogwebss} /></a>
+        </div>
+        <div className='work_box'>
+          <a href="https://bsns-web.vercel.app/"><img src={bsnsss} /></a>
         </div>
       </div>
       
