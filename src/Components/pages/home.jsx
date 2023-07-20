@@ -1,5 +1,6 @@
 import React from 'react';
 import '../scss/_home.scss';
+import pcguy from '../assets/pcguy.jpeg';
 import pic from '../assets/ChintanMakwana.png';
 import pic2 from '../assets/pic6.jpeg';
 import pic3 from '../assets/pic5.jpg';
@@ -37,7 +38,7 @@ export default function Home() {
     <>
       <div className='header_container'>
         <div className='header_img'>
-          <img src={pic2} />
+          <img src={pcguy} />
         </div>
         <div className='header_title'>
           <h1>Hello I'm Chintan.</h1>
@@ -82,11 +83,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='service_container'>
+      {/* <div className='service_container'>
       <div className='service_title'>
         <h2>Our Services</h2>
-        {/* <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> */}
-      </div>
+       </div>
 
       <div className='services_section'>
   
@@ -96,8 +96,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>App Development</h2>
-            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
-          </div>
+           </div>
           <div className='service_row3'>
             <img src={circle1} />
           </div>
@@ -109,8 +108,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Web Development</h2>
-            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
-          </div>
+            </div>
           <div className='service_row3'>
             <img src={circle2} />
           </div>
@@ -122,8 +120,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Responsive Design</h2>
-            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
-          </div>
+           </div>
           <div className='service_row3'>
             <img src={circle3} />
           </div>
@@ -135,8 +132,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Designs & Interfaces</h2>
-            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
-          </div>
+           </div>
           <div className='service_row3'>
             <img src={circle4} />
           </div>
@@ -148,8 +144,7 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Highly Customizable</h2>
-            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
-          </div>
+           </div>
           <div className='service_row3'>
             <img src={circle5} />
           </div>
@@ -161,15 +156,14 @@ export default function Home() {
           </div>
           <div className='service_row2'>
             <h2>Dedicated Support</h2>
-            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
-          </div>
+            </div>
           <div className='service_row3'>
             <img src={circle6} />
           </div>
         </div>
 
       </div>
-    </div>
+    </div> */}
 
     <div className='latestwork_container'>
       <div className='latestwork_title'>

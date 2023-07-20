@@ -13,7 +13,7 @@ export default function Navbar() {
         </div>
         <div className='navbar_menu'>
           <a href="/">Home</a>
-          <a href="/services">Services</a>
+          {/* <a href="/services">Services</a> */}
           <a href="/work">Work</a>
           <a href={resume}>Resume</a>
           <a href="/testimonial">Testimonials</a>
